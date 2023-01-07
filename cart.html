@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Cart</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="indexstyle.css">
+</head>
+
+<body>
+    <section class="cart">
+        <h1 class="cart-title">My Shopping Cart</h1>
+        <div class="cart-content">
+
+            <div class="cart-box">
+                <div class="cakebox">
+                    <img src="img/lady.11.jpg" class="cart-img">
+
+                    <div class="detail-box">
+                        <div class="cake-title">品名:LADY M - 伯爵茶千層蛋糕</div>
+                        <div class="cake-price">價格:$2800</div>
+                        <div class=" cake-size">尺寸:9吋</div>
+                        
+                    </div>
+                    <input type="number" value="1" class="cart-quantity">
+                    <i class='bx bxs-trash cart-remove'></i>
+                </div>
+                <hr>
+                <div  class="cakebox">
+                    <img src="img/haagen.12.jpg" class="cart-img">
+
+                    <div class="detail-box">
+                        <div class="cake-title">品名:Haagen-Dazs - 奇奇蒂蒂森林</div>
+                        <div class="cake-price">價格:$2380</div>
+                        <div class=" cake-size">尺寸:7吋</div>
+                        
+                    </div>
+                    <input type="number" value="1" class="cart-quantity">
+                    <i class='bx bxs-trash cart-remove'></i>
+                </div>
+                <hr>
+                <div class="cakebox">
+                    <img src="img/85.9.jpg" class="cart-img">
+
+                    <div class="detail-box">
+                        <div class="cake-title">品名:85度C - 萌萌小刺蝟</div>
+                        <div class="cake-price">價格:$399</div>
+                        <div class=" cake-size">尺寸:6吋</div>
+                        
+                    </div>
+                    <input type="number" value="1" class="cart-quantity">
+                    <i class='bx bxs-trash cart-remove'></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="total">
+            <div class="total-title">總計:</div>
+            <div class="total-price">$0</div>
+        </div>
+
+        <button type="button" class="button-buy">現在購買</button>
+
+        <i class='bx bx-window-close' id="cart-close"></i>
+    </section>
+    <script src="index.js"></script>
+</body>
+</html>

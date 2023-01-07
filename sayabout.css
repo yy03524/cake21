@@ -1,0 +1,79 @@
+.Base {
+    width: 150px;
+    height: 50px;
+    margin: 10px 0 10px 500px;
+    padding: 10px 35px 10px 35px;
+    border-radius: 2px;
+    box-shadow: 2px 2px 0 0 rgba(107, 44, 2, 0.25);
+    background-color: #edb1f5de;
+    color: rgb(33, 15, 55);;
+    }
+    .BG-Copy {
+    margin: 10px 40px 10px 10px;
+    padding: 10px 5px 10px 5px;
+    border-color: #2f3944 ;
+    }
+    table {
+    border:2px solid #2f3944;
+    font-family: 微軟正黑體;
+    font-size:16px;
+    text-align:center;
+    border-collapse:collapse;
+    }
+    th {
+    background-color: #e4a8f4de;
+    border:1px solid #2f3944;
+    color:rgb(193, 73, 73);
+    }
+    td {
+    border:1px solid #2f3944;
+    }
+    tr{
+    height:60px;
+    }
+    
+    .ratings {
+        position: relative;
+        vertical-align: middle;
+        display: inline-block;
+        color: #ddd; /*背景星星顏色*/
+        overflow: hidden;
+        font-size: 20px; /*調整字體大小可放大縮小星星*/
+        text-shadow: 0px 1px 0 #999;
+        }
+
+    .full_star {
+        width: 100%; /*調整寬度可變更星等*/
+        position: absolute;
+        left: 0;
+        top: 0;
+        white-space: nowrap;
+        overflow: hidden;
+        color: #d55689; /*前景星星顏色*/
+        }
+
+    .full_star-1 {
+            width: 80%; /*調整寬度可變更星等*/
+            position: absolute;
+            left: 0;
+            top: 0;
+            white-space: nowrap;
+            overflow: hidden;
+            color: #d55689; /*前景星星顏色*/
+            }
+
+    .card{
+            background-color: white;
+            margin: 20px 20px;  
+            border-radius: 10px;
+            padding: 20px;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif 微軟正黑體;
+            text-align: center;
+        }
+        
+    .card-txt{
+            font-style: 20px black;
+            padding: 10px;
+            margin: 20px;
+        }
+    
